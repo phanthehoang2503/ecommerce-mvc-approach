@@ -27,6 +27,11 @@ public class ProductService {
         return productRepository.findAll();
     }
 
+    public Product getProductById(int id) {
+        return productRepository.findById(id)
+                .orElseThrow(() -> new AppException(ErrorCode.PRODUCT_NOT_FOUND));
+    }
+
     public Product updateProduct(int id, ProductRequest productRequest) {
         Product prod = productRepository.findById(id)
                 .orElseThrow(() -> new AppException(ErrorCode.PRODUCT_NOT_FOUND));

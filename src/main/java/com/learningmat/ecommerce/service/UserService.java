@@ -1,10 +1,8 @@
 package com.learningmat.ecommerce.service;
 
-import com.learningmat.ecommerce.dto.request.UserCreateRequest;
-import com.learningmat.ecommerce.dto.request.UserUpdateRequest;
+import com.learningmat.ecommerce.dto.request.*;
 import com.learningmat.ecommerce.enums.Role;
-import com.learningmat.ecommerce.exception.AppException;
-import com.learningmat.ecommerce.exception.ErrorCode;
+import com.learningmat.ecommerce.exception.*;
 import com.learningmat.ecommerce.mapper.UserMapper;
 import com.learningmat.ecommerce.model.User;
 import com.learningmat.ecommerce.repository.UserRepository;
@@ -58,6 +56,5 @@ public class UserService {
 
         return userRepository.save(user);
     }
-
 
 }

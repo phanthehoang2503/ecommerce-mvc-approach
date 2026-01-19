@@ -1,4 +1,4 @@
-package com.learningmat.ecommerce.dto;
+package com.learningmat.ecommerce.dto.response;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Builder;

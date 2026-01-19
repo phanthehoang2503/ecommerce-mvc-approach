@@ -1,6 +1,6 @@
 package com.learningmat.ecommerce.controller;
 
-import com.learningmat.ecommerce.dto.ApiResponse;
+import com.learningmat.ecommerce.dto.response.ApiResponse;
 import com.learningmat.ecommerce.dto.request.ProductRequest;
 import com.learningmat.ecommerce.model.Product;
 import com.learningmat.ecommerce.service.ProductService;
@@ -27,7 +27,6 @@ public class ProductController {
                 .build();
     }
 
-
     @GetMapping
     @ResponseStatus(HttpStatus.OK)
     public ApiResponse<List<Product>> getProduct() {
@@ -37,9 +36,16 @@ public class ProductController {
                 .build();
     }
 
+    @GetMapping("/{productId}")
+    public ApiResponse<Product> getProductById(@PathVariable int productId) {
+        return ApiResponse.<Product>builder()
+                .result(productService.getProductById(productId))
+                .build();
+    }
+
     @PutMapping("/{productId}")
     public ApiResponse<Product> updateProduct(@PathVariable int productId,
-                                              @RequestBody @Valid ProductRequest productRequest) {
+            @RequestBody @Valid ProductRequest productRequest) {
         return ApiResponse.<Product>builder()
                 .result(productService.updateProduct(productId, productRequest))
                 .message("Updated successful")

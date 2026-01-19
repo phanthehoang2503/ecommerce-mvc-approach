@@ -1,6 +1,6 @@
 package com.learningmat.ecommerce.controller;
 
-import com.learningmat.ecommerce.dto.ApiResponse;
+import com.learningmat.ecommerce.dto.response.ApiResponse;
 import com.learningmat.ecommerce.dto.request.UserCreateRequest;
 import com.learningmat.ecommerce.dto.request.UserUpdateRequest;
 import com.learningmat.ecommerce.model.User;
