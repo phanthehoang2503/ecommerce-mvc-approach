@@ -17,7 +17,8 @@ public enum ErrorCode {
 
     USER_EXISTED(1007, "Username already exist...", HttpStatus.BAD_REQUEST),
     USER_NOTFOUND(1008, "User not found", HttpStatus.NOT_FOUND),
-    UNAUTHENTICATED(1009, "Fail to login", HttpStatus.UNAUTHORIZED);
+    UNAUTHENTICATED(1009, "Fail to login", HttpStatus.UNAUTHORIZED),
+    USER_CART_NOTFOUND(1010, "Users cart not found", HttpStatus.NOT_FOUND);
 
     private int code;
     private String message;
