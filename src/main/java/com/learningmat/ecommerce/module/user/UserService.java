@@ -1,11 +1,9 @@
-package com.learningmat.ecommerce.service;
+package com.learningmat.ecommerce.module.user;
 
 import com.learningmat.ecommerce.dto.request.*;
 import com.learningmat.ecommerce.enums.Role;
 import com.learningmat.ecommerce.exception.*;
 import com.learningmat.ecommerce.mapper.UserMapper;
-import com.learningmat.ecommerce.model.User;
-import com.learningmat.ecommerce.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;

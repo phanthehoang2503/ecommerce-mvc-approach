@@ -1,6 +1,5 @@
-package com.learningmat.ecommerce.repository;
+package com.learningmat.ecommerce.module.cart;
 
-import com.learningmat.ecommerce.model.Cart;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

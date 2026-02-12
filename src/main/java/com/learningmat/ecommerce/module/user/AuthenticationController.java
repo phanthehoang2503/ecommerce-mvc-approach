@@ -1,4 +1,4 @@
-package com.learningmat.ecommerce.controller;
+package com.learningmat.ecommerce.module.user;
 
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 import com.learningmat.ecommerce.dto.request.AuthenticationRequest;
 import com.learningmat.ecommerce.dto.response.ApiResponse;
 import com.learningmat.ecommerce.dto.response.AuthenticationResponse;
-import com.learningmat.ecommerce.service.AuthenticateService;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.PostMapping;

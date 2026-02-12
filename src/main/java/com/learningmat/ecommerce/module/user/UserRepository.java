@@ -1,6 +1,5 @@
-package com.learningmat.ecommerce.repository;
+package com.learningmat.ecommerce.module.user;
 
-import com.learningmat.ecommerce.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

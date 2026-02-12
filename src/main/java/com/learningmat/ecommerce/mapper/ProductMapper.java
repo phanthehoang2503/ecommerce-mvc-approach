@@ -1,7 +1,7 @@
 package com.learningmat.ecommerce.mapper;
 
 import com.learningmat.ecommerce.dto.request.ProductRequest;
-import com.learningmat.ecommerce.model.Product;
+import com.learningmat.ecommerce.module.product.Product;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.MappingTarget;

@@ -1,15 +1,12 @@
-package com.learningmat.ecommerce.service;
+package com.learningmat.ecommerce.module.order;
 
+import com.learningmat.ecommerce.module.cart.CartService;
 import com.learningmat.ecommerce.exception.AppException;
 import com.learningmat.ecommerce.exception.ErrorCode;
-import com.learningmat.ecommerce.model.Cart;
-import com.learningmat.ecommerce.model.Order;
-import com.learningmat.ecommerce.model.OrderItem;
-import com.learningmat.ecommerce.model.User;
-import com.learningmat.ecommerce.repository.CartRepository;
-import com.learningmat.ecommerce.repository.OrderRepository;
-import com.learningmat.ecommerce.repository.ProductRepository;
-import com.learningmat.ecommerce.repository.UserRepository;
+import com.learningmat.ecommerce.module.cart.Cart;
+import com.learningmat.ecommerce.module.user.User;
+import com.learningmat.ecommerce.module.cart.CartRepository;
+import com.learningmat.ecommerce.module.user.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

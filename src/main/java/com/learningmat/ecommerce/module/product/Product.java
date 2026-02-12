@@ -1,4 +1,4 @@
-package com.learningmat.ecommerce.model;
+package com.learningmat.ecommerce.module.product;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

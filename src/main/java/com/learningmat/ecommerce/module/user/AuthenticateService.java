@@ -1,8 +1,7 @@
-package com.learningmat.ecommerce.service;
+package com.learningmat.ecommerce.module.user;
 
 import com.learningmat.ecommerce.exception.AppException;
 import com.learningmat.ecommerce.exception.ErrorCode;
-import com.learningmat.ecommerce.model.User;
 import com.nimbusds.jose.*;
 import com.nimbusds.jose.crypto.MACSigner;
 import com.nimbusds.jwt.JWTClaimsSet;
@@ -12,7 +11,6 @@ import org.springframework.stereotype.Service;
 
 import com.learningmat.ecommerce.dto.request.AuthenticationRequest;
 import com.learningmat.ecommerce.dto.response.AuthenticationResponse;
-import com.learningmat.ecommerce.repository.UserRepository;
 
 import lombok.RequiredArgsConstructor;
 import lombok.experimental.NonFinal;

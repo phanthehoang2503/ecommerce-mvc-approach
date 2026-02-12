@@ -1,13 +1,10 @@
-package com.learningmat.ecommerce.controller;
+package com.learningmat.ecommerce.module.product;
 
 import com.learningmat.ecommerce.dto.response.ApiResponse;
 import com.learningmat.ecommerce.dto.request.ProductRequest;
-import com.learningmat.ecommerce.model.Product;
-import com.learningmat.ecommerce.service.ProductService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
-import lombok.AllArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.access.prepost.PreAuthorize;

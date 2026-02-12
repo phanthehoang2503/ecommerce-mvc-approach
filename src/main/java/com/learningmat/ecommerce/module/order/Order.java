@@ -1,5 +1,6 @@
-package com.learningmat.ecommerce.model;
+package com.learningmat.ecommerce.module.order;
 
+import com.learningmat.ecommerce.module.user.User;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;

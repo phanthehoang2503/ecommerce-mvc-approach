@@ -1,11 +1,9 @@
-package com.learningmat.ecommerce.service;
+package com.learningmat.ecommerce.module.product;
 
 import com.learningmat.ecommerce.dto.request.ProductRequest;
 import com.learningmat.ecommerce.exception.AppException;
 import com.learningmat.ecommerce.exception.ErrorCode;
 import com.learningmat.ecommerce.mapper.ProductMapper;
-import com.learningmat.ecommerce.model.Product;
-import com.learningmat.ecommerce.repository.ProductRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

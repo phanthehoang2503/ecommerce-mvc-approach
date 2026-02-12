@@ -2,7 +2,7 @@ package com.learningmat.ecommerce.mapper;
 
 import com.learningmat.ecommerce.dto.request.UserCreateRequest;
 import com.learningmat.ecommerce.dto.request.UserUpdateRequest;
-import com.learningmat.ecommerce.model.User;
+import com.learningmat.ecommerce.module.user.User;
 import org.mapstruct.BeanMapping;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;

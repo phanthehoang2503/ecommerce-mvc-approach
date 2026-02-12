@@ -9,8 +9,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
 import com.learningmat.ecommerce.enums.Role;
-import com.learningmat.ecommerce.model.User;
-import com.learningmat.ecommerce.repository.UserRepository;
+import com.learningmat.ecommerce.module.user.User;
+import com.learningmat.ecommerce.module.user.UserRepository;
 
 @SpringBootApplication
 public class EcommerceApplication {

@@ -1,6 +1,5 @@
-package com.learningmat.ecommerce.repository;
+package com.learningmat.ecommerce.module.order;
 
-import com.learningmat.ecommerce.model.Order;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

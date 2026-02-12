@@ -1,10 +1,8 @@
-package com.learningmat.ecommerce.controller;
+package com.learningmat.ecommerce.module.user;
 
 import com.learningmat.ecommerce.dto.response.ApiResponse;
 import com.learningmat.ecommerce.dto.request.UserCreateRequest;
 import com.learningmat.ecommerce.dto.request.UserUpdateRequest;
-import com.learningmat.ecommerce.model.User;
-import com.learningmat.ecommerce.service.UserService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.access.prepost.PreAuthorize;

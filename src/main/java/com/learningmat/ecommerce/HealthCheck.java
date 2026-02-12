@@ -6,10 +6,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @AllArgsConstructor
-public class HelloController {
+public class HealthCheck {
 
-    @GetMapping("/hello")
-    public String xinChao() {
-        return "Kết nối Database thành công!";
+    @GetMapping("/health")
+    public String health() {
+        return "Application is running";
     }
 }

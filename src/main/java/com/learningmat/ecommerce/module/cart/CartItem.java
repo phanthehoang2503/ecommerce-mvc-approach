@@ -1,6 +1,7 @@
-package com.learningmat.ecommerce.model;
+package com.learningmat.ecommerce.module.cart;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.learningmat.ecommerce.module.product.Product;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
